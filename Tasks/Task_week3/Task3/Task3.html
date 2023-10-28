@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-88">
+    <meta name="description" content="Task 3">
+    <title>Task 3</title>
+    <style>
+        div {
+            margin: 1px;
+            padding: 2px;
+            width: 300px;
+        }
+
+        label {
+            width: 90px;
+            display: inline-block;
+        }
+
+        input {
+            border-radius: 3px;
+            border: 2px solid rgb(166, 161, 161)
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td rowspan="2" style="padding: 0 0 0 5px;">
+                <form>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input id="name" type="text" size="20"><br>
+                    </div>
+                    <div>
+                        <label for="adds">Address:</label>
+                        <input id="adds" type="text" size="20"><br>
+                    </div>
+                    <div>
+                        <label for="city">City:</label>
+                        <input id="city" type="text" size="20"><br>
+                    </div>
+                    <div>
+                        <label for="state">State:</label>
+                        <input id="state" type="text" size="10"><br>
+                    </div>
+                    <div>
+                        <label for="zip">Zip:</label>
+                        <input id="zip" type="text" size="10"><br>
+                    </div>
+                    <div>
+                        <label for="maga">Magazine: </label>
+                        <select id="maga" name="Magazine"
+                            style="border-radius: 3px;border: 2px solid rgb(166, 161, 161);size: 10px;">
+                            <optgroup label="Kind">
+                                <option value="1">Newsweek</option>
+                                <option value="2">Fashion</option>
+                                <option value="3">Health</option>
+                                <option value="4">Sports</option>
+                            </optgroup>
+                        </select><br>
+                    </div>
+                    <div>
+                        <label for="sub">Subscription: </label>
+                        <input id="sub 1" type="radio" name="sub" value="1 year" checked>
+                        <label for="1" style="width:fit-content">1 year</label>&nbsp;&nbsp;
+                        <input id="sub 2" type="radio" name="sub" value="2 years">
+                        <label for="2" style="width:fit-content;display:contents">2 years</label><br>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send Your Order">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <p style="margin: 0px;text-align:center"><b>Random Names</b></p>
+                <table border="1">
+                    <tr>
+                        <td style="padding: 7px;">J. Doe</td>
+                        <td style="padding: 7px;">P. Day</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 7px;">R. Rob</td>
+                        <td style="padding: 7px;">T. Sam</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;padding: 7px">Contact me for details</td>
+                    </tr>
+                </table>
+
+            </td>
+
+        </tr>
+        <tr style="height: 100px;">
+            <td>
+                <p style="position: left;">HELLO</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
