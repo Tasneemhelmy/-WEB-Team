@@ -64,5 +64,9 @@ To ensure you have the latest changes from the remote repository, you should reg
 https://drive.google.com/file/d/1a61rPqqlBK6Cq45SJLy583zhRGpurOy-/view
 <br>
 
+## A Video Showing How To Do The Previous Steps
+   Follow the link: https://drive.google.com/file/d/1YC1SD6vRJBfR0ia0PL_CckfTEUv53uAf/view?usp=drive_link
+
+   
 > **Note**
 > If you have any problems feel free to say "كله رايح"
