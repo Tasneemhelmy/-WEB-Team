@@ -61,8 +61,12 @@ To ensure you have the latest changes from the remote repository, you should reg
 1. Navigate to the repository you're working on in GitHub, where you will find all files you have uploaded.
 
 2. Follow the video guide:
-https://drive.google.com/file/d/1a61rPqqlBK6Cq45SJLy583zhRGpurOy-/view
+https://drive.google.com/file/d/1a61rPqqlBK6Cq45SJLy583zhRGpurOy-/view  
+
 <br>
 
-> **Note**
-> If you have any problems feel free to say "كله رايح"
+>**Important**
+> A Video Showing How To Do The Previous Steps Follow the link:
+> <a href="https://drive.google.com/file/d/1YC1SD6vRJBfR0ia0PL_CckfTEUv53uAf/view?usp=drive_link" target="_new">Tutorial Video</a>
+
+

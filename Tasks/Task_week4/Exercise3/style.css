@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    border: 3px solid #EEE;
+    box-sizing: border-box;
+}
+
+.container .photo {
+    padding: 10px;
+    font-weight: bold;
+    position: relative;
+}
+
+p {
+    background-color: rgb(195, 52, 11, 0.61);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    width: 360px;
+    position: absolute;
+    top: calc(50% - 70px);
+}
+
+img {
+    display: block;
+}

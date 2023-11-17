@@ -1,0 +1,24 @@
+.img{
+    height: 500px;
+    margin: 50px 50px;
+    transition: transform 20s ease 0s;
+}
+.img:hover{
+    transform: perspective(3000px) rotateY(290deg );
+
+ }
+ .img2{
+    height: 500px;
+    margin: 50px 50px;
+    transition: transform 20s ease 0s;
+}
+.img2:hover{
+    transform: perspective(3000px) rotateY(-290deg );
+
+ }
+div{
+    text-align: center ; 
+    margin: auto;
+    border :5px solid rgb(9, 92, 6);
+    
+}
