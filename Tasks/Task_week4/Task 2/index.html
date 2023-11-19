@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .one{
+        border-radius: 10px;
+        width: 50%;
+        border: 2px solid black;
+        text-align: center;
+    }
+    #img{
+        height: 275px;
+        width: 400px;       
+        }
+
+    .img_container{
+        position: relative;
+        height: 275px;
+        width: 400px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(18, 14, 14, 0.5);
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    .overlay:hover{
+        opacity: 1;
+    }
+    .overlay_text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #f1eded;
+        font-size: 24px;
+        font-weight: bold;
+        text-align:center;
+      }
+      .word_container{
+        width: 100%;
+        background-color: black;
+      }
+      #word{
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+      }
+
+
+</style>
+
+
+</head>
+
+<body>
+ 
+    <div class="one">
+        <div class="img_container">
+            <div class="word_container">
+            <div id="word">preview:</div>
+            </div>
+            <img id="img" src="—Pngtree—flowers_9445663.png" alt="flower image">
+                <div class="overlay">
+                    <div class="overlay_text">Hello</div>
+                </div>
+        </div>
+
+    </div>
+
+
+
+
+    
+</body>
+</html>
