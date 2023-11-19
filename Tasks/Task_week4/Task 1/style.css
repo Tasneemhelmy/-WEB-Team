@@ -7,22 +7,4 @@ input[type = checkbox]{
     width: 20px;
     height: 20px;
     border-radius: 5px;
-    background-color: rgb(100, 151, 151);
-
-}
-input[type = checkbox]::before{
-    transform:translate(8px ,13px) rotate(-45deg)
-    
-}
-input[type = checkbox]::after{
-    transform:translate(1px ,8px) rotate(45deg)
-    
-}
-input[type = checkbox]:checked::before{
-    width: 14px;
-    transition: delay 150ms;
-}
-input[type = checkbox]:checked::after{
-    width: 10px;
-    transition: delay 0ms;
 }
