@@ -1,0 +1,22 @@
+div {
+    border: 3px solid #808080b3;
+    border-left-width:1px ;
+    padding-bottom: 100px;
+}
+h3 {
+    margin: 6px;
+}
+button {
+    padding-left: 19px;
+    font-size: 19px;
+    font-family: emoji;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+h3:hover {
+    color: red;
+}
+button:focus{
+    color: brown;
+}
