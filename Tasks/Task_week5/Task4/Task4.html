@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Function</title>
+</head>
+
+<body>
+  <script>
+    //Print the Min number.
+    let a = 50, b = 7, c = 100, d = 15;
+    function FindMin() {
+      let Min = Infinity;
+      for (let i = 0; i < arguments.length; i++) {
+        if (arguments[i] < Min) Min = arguments[i];
+      }
+      return Min;
+    }
+    console.log("The Minimum Number is : " + FindMin(a, b, c, d));
+
+
+    // Purchase Function.
+    let YourMoney = 300, item_price = 200, tax_rate = 14;
+    let tax_value = (tax_rate / 100) * item_price;
+    function purchase(YourMoney, item_price, tax_value) {
+      if (YourMoney >= (tax_value + item_price)) return "Yes";
+      return "No";
+    }
+    console.log((purchase(YourMoney, item_price, tax_value) == "Yes" ? "You can buy it :)" : "Sorry, You can't buy it :( "));
+  </script>
+</body>
+
+</html>
